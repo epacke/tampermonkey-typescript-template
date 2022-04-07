@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "postversion": "git push --follow-tags",
-    "analize": "npm_config_report=true npm run build",
+    "analyse": "npm_config_report=true npm run build",
     "build": "webpack --mode production --config config/webpack.config.production.cjs",
     "dev": "webpack --mode development --config config/webpack.config.dev.cjs"
   },
